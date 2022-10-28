@@ -1,0 +1,392 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "End To End HerokuApp Validation",
+    "line": 1,
+    "id": "end-to-end-herokuapp-validation",
+    "tags": [],
+    "uri": "InternetHerokuAp.feature",
+    "elements": [
+      {
+        "id": "end-to-end-herokuapp-validation;ab-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "AB Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User Click on AB Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User validate data on the page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;drag-and-drop-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Drag and drop Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User Click on Drag and drop Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Drag and drop box A on the box B and validate text",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;dropdown-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "DropDown Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User Click on DropDown Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User will able to select on the option in Dropdown list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;checkboxes-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Checkboxes Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User Click on Checkboxes Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User click on the checkbox 1 and validate",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;context-menu-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Context Menu Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "User Click on Context Menu Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User Right click on the box",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;form-authentication-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Form Authentication Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "User Click on Form Authentication Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "User click on the username and enter the username",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User click on the password and enter the password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "User click on the Login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User validates login successfully or not",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;jqueryui-menu-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "JQueryUI Menu Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "User Click on JQueryUI Menu Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "User clicks on the JQuery link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "user clicks on the Selectors in Jquery UI menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;hovers-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Hovers Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "User Click on Hovers Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "User mouseover on the profile pics and data will display",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "User validates the details",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-herokuapp-validation;key-presses-testing--functionality-steps",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Key presses Testing  functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on InternetHerokuApp Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "User Click on Key presses Testing button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User enter or press the keypad and shortcuts keys then text will display",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "End To End Flipkart Validation",
+    "line": 1,
+    "id": "end-to-end-flipkart-validation",
+    "tags": [],
+    "uri": "Flipkart.feature",
+    "elements": [
+      {
+        "id": "end-to-end-flipkart-validation;flipkart-fill-in-the-steps-to-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Flipkart fill in the steps to login",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User lands on Flipkart Dashboard page",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

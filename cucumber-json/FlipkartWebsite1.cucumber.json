@@ -1,0 +1,461 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "End To End Flipkart Validation",
+    "line": 1,
+    "id": "end-to-end-flipkart-validation",
+    "tags": [],
+    "uri": "FlipkartWebsite1.feature",
+    "elements": [
+      {
+        "id": "end-to-end-flipkart-validation;flipkart-search-functionality-steps",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Flipkart Search functionality steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on Flipkart Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 3708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks the Login on Header page",
+            "result": {
+              "status": "passed",
+              "duration": 535000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "PhoneNumber",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9581516088",
+                      "satya0546"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User enter Email or PhoneNumber and password",
+            "result": {
+              "status": "passed",
+              "duration": 1610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks on the Login in popup window",
+            "result": {
+              "status": "passed",
+              "duration": 3706000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Search tab"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mobiles"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User searches for any catagerory by entering any Catagerory name",
+            "result": {
+              "status": "passed",
+              "duration": 2442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User apply filters on paritular brand on the catagerory",
+            "result": {
+              "status": "passed",
+              "duration": 4939000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User validates that Nextpage and Previous page is clickable mode or not",
+            "result": {
+              "status": "passed",
+              "duration": 4764000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-flipkart-validation;flipkart-my-profile-tab-steps",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Flipkart My Profile tab steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on Flipkart Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 4232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks the Login on Header page",
+            "result": {
+              "status": "passed",
+              "duration": 221000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "PhoneNumber",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9581516088",
+                      "satya0546"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User enter Email or PhoneNumber and password",
+            "result": {
+              "status": "passed",
+              "duration": 1103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks on the Login in popup window",
+            "result": {
+              "status": "passed",
+              "duration": 3067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User should be mouseover on Signin tab then click on My profile",
+            "result": {
+              "status": "passed",
+              "duration": 2811000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User validates that First name and last was visible or not",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User should clickon the edit function of Email address",
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User should clickon the Change password option",
+            "result": {
+              "status": "passed",
+              "duration": 1814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "User click on the edit function of Phone Number",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-flipkart-validation;flipkart-my-logout-tab-steps",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Flipkart My Logout tab steps",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 30
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on Flipkart Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 2387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks the Login on Header page",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "PhoneNumber",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9581516088",
+                      "satya0546"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User enter Email or PhoneNumber and password",
+            "result": {
+              "status": "passed",
+              "duration": 838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks on the Login in popup window",
+            "result": {
+              "status": "passed",
+              "duration": 3928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "User should be mouseover on Signin tab then click on My Logout tab",
+            "result": {
+              "status": "passed",
+              "duration": 2422000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-flipkart-validation;flipkart-my-travel-tab-steps",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Flipkart My Travel Tab steps",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User lands on Flipkart Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 6192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks the Login on Header page",
+            "result": {
+              "status": "passed",
+              "duration": 563000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "PhoneNumber",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "9581516088",
+                      "satya0546"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User enter Email or PhoneNumber and password",
+            "result": {
+              "status": "passed",
+              "duration": 2335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks on the Login in popup window",
+            "result": {
+              "status": "passed",
+              "duration": 3886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "User clicks on the My Travel catagerory",
+            "result": {
+              "status": "passed",
+              "duration": 1002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "User select the round Trip option",
+            "result": {
+              "status": "passed",
+              "duration": 2427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User selects the from and to state option",
+            "result": {
+              "status": "passed",
+              "duration": 3119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User selects the Depature and Return Date",
+            "result": {
+              "status": "passed",
+              "duration": 2251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User selects the Travellers and Cabin Class",
+            "result": {
+              "status": "passed",
+              "duration": 2010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "User clicks on the Search Tab",
+            "result": {
+              "status": "passed",
+              "duration": 5728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "User apply filters as per Customer Requirements",
+            "result": {
+              "status": "passed",
+              "duration": 2459000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
